@@ -380,8 +380,8 @@ footer .footer-copy nav{justify-content:center}
 .merch-head h2{margin:0;font-size:clamp(4.5rem,9vw,10rem);font-weight:500;line-height:1;letter-spacing:-2px}
 .merch-intro{padding-bottom:1rem;border-bottom:1px solid var(--line)}
 .merch-intro p{margin:0 0 2rem;line-height:1.55;opacity:.72}
-.merch-intro a,.merch-order a{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:1.15rem 1.3rem;background:var(--gold);color:var(--ink);font-size:.72rem;text-transform:uppercase;transition:background .2s ease,transform .2s ease}
-.merch-intro a:hover,.merch-intro a:focus-visible,.merch-order a:hover,.merch-order a:focus-visible{background:var(--cream);transform:translateY(-2px)}
+.merch-intro a{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:1.15rem 1.3rem;background:var(--gold);color:var(--ink);font-size:.72rem;text-transform:uppercase;transition:background .2s ease,transform .2s ease}
+.merch-intro a:hover,.merch-intro a:focus-visible{background:var(--cream);transform:translateY(-2px)}
 .merch-groups{display:grid;gap:clamp(4rem,7vw,7rem)}
 .merch-group{min-width:0}
 .merch-group h3{margin:0 0 1.5rem;font-size:clamp(2.5rem,5vw,5rem);font-weight:500;line-height:1}
@@ -390,11 +390,8 @@ footer .footer-copy nav{justify-content:center}
 .merch-carousel figure{flex:0 0 clamp(300px,42vw,580px);margin:0;padding:clamp(1rem,2.5vw,2.5rem);scroll-snap-align:start;background:#17100f}
 .merch-carousel img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;transition:transform .35s ease}
 .merch-carousel figure:hover img{transform:scale(1.025)}
-.merch-order{display:flex;align-items:center;justify-content:space-between;gap:2rem;margin-top:2rem}
-.merch-order p{max-width:550px;margin:0;line-height:1.5;opacity:.7}
-.merch-order a{min-width:230px;justify-content:center}
 @media(max-width:900px){.merch-head{grid-template-columns:1fr}.merch-intro{max-width:600px}.merch-carousel figure{flex-basis:clamp(290px,70vw,540px)}}
-@media(max-width:560px){.merch-section{padding-left:0;padding-right:0}.merch-head,.merch-group h3,.merch-order{margin-left:var(--pad);margin-right:var(--pad)}.merch-carousel{margin-right:0;padding-left:var(--pad);padding-right:var(--pad)}.merch-carousel figure{flex-basis:84vw;padding:1rem}.merch-order{align-items:stretch;flex-direction:column}.merch-order a{min-width:0}}
+@media(max-width:560px){.merch-section{padding-left:0;padding-right:0}.merch-head,.merch-group h3{margin-left:var(--pad);margin-right:var(--pad)}.merch-carousel{margin-right:0;padding-left:var(--pad);padding-right:var(--pad)}.merch-carousel figure{flex-basis:84vw;padding:1rem}}
 
 .watch-centers-page{background:var(--night)}
 .watch-centers-page .desktop-nav a[aria-current=page]{opacity:1;color:var(--gold)}
