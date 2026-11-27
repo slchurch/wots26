@@ -1,0 +1,6 @@
+.git
+.assetsignore
+wrangler.jsonc
+vite.config.mjs
+README.md
+node_modules

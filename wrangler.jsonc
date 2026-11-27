@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wots26",
+  "compatibility_date": "2026-11-01",
+  // Plain static site: serve the repository root as assets, no build step.
+  "assets": {
+    "directory": "./"
+  }
+}
