@@ -5,5 +5,7 @@
   // Plain static site: serve the repository root as assets, no build step.
   "assets": {
     "directory": "./"
-  }
+  },
+  // Required by `wrangler preview`, which Cloudflare runs for non-production branches.
+  "previews": {}
 }
